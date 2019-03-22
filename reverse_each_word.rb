@@ -5,5 +5,5 @@ new_array = string.split(" ")
 new_array.collect do |word|
  new << word.reverse + " "
 end
-new.join()
+return new
 end
