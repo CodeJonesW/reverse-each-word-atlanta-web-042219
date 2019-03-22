@@ -4,5 +4,5 @@ new = []
 new_array.collect do |word|
  new << word.reverse
 end
-return new.join
+return new.join(" ")
 end
